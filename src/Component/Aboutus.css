@@ -1,0 +1,21 @@
+.Maindiv{
+    display: flex;
+    width: 100%;
+    /* justify-content: space-between; */
+    margin-bottom: 30px;
+}
+
+.AboutBox{
+    width: 50%;
+}
+
+@media (max-width:800px){
+    .AboutBox{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .Maindiv{
+        display:block;
+    }
+}
